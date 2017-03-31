@@ -1,0 +1,51 @@
+= Passdown
+
+[[_overview]]
+== Overview
+Spring-based REST API with a little Swagger!
+
+
+=== Version information
+[%hardbreaks]
+__Version__ : 1.0
+
+
+=== Contact information
+[%hardbreaks]
+__Contact__ : Steffen Kory
+
+
+=== License information
+[%hardbreaks]
+__License__ : Apache License Version 2.0
+__License URL__ : https://opensource.org/licenses/Apache-2.0
+
+=== URI scheme
+[%hardbreaks]
+__Host__ : localhost:8080
+__BasePath__ : /
+
+<<<
+include::{generated}/map/paths.adoc[]
+<<<
+include::{generated}/map/definitions.adoc[]
+<<<
+include::{generated}/map/security.adoc[]
+<<<
+include::{generated}/dashboard/paths.adoc[]
+<<<
+include::{generated}/dashboard/definitions.adoc[]
+<<<
+include::{generated}/dashboard/security.adoc[]
+<<<
+include::{generated}/case/paths.adoc[]
+<<<
+include::{generated}/case/definitions.adoc[]
+<<<
+include::{generated}/case/security.adoc[]
+<<<
+include::{generated}/authentication/paths.adoc[]
+<<<
+include::{generated}/authentication/definitions.adoc[]
+<<<
+include::{generated}/authentication/security.adoc[]
