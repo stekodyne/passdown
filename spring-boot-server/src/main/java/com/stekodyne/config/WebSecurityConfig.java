@@ -41,10 +41,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .ldapAuthentication()
                 .groupSearchBase("ou=groups")
                 .userSearchFilter("uid={0}")
-                .contextSource(contextSource())
-                .passwordCompare()
-                .passwordEncoder(new Md5PasswordEncoder())
-                .passwordAttribute("userPassword");
+                .contextSource(contextSource());
     }
 
     @Bean
